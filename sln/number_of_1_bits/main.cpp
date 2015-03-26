@@ -8,5 +8,7 @@ using namespace std;
 
 TEST(FooTest, HandleNoneZeroInput)
 {
-	    EXPECT_EQ(2, 2);
+	Solution a;
+	int count = a.hammingWeight(1);
+	EXPECT_EQ(1, count);
 }
