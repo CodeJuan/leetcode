@@ -9,6 +9,6 @@ using namespace std;
 TEST(FooTest, HandleNoneZeroInput)
 {
 	Solution a;
-	int count = a.hammingWeight(1);
-	EXPECT_EQ(1, count);
+	uint32_t count = a.reverseBits(43261596);
+	EXPECT_EQ(964176192, count);
 }
